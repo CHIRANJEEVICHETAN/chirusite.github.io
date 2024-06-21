@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+ {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  background-color: lightblue;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: red;
+  flex-direction: row;
+}
+
+nav .logo {
+  width: 150px;
+  margin-left: 0px;
+  background-color: #fff;
+}
+
+nav .nav-address {
+  width: 120px;
+  height: 40px;
+  background-color: #fff;
+}
+nav #location {
+  margin-top: 2%;
+  /* background-color: #060606; */
+}
+
+nav .nav-address {
+  display: flex;
+  align-items: center;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+
+nav .nav-city {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 200px;
+  margin-left: 10px;
+  padding-bottom: 100px;
+}
+nav .nav-address-name {
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+nav .nav-button-select #all {
+  width: 45px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+nav .nav-search-bar {
+  display: flex;
+}
+nav .nav-search-bar #search {
+  width: 550px;
+  height: 36px;
+  border-radius: 5px;
+  border: none;
+}
+
+nav .nav-search-bar #search::placeholder {
+  font-size: 15px;
+  /* padding-left: 10px; */
+  padding-top: 5px;
+}
+
+nav .nav-scan-icon #scan {
+  position: relative;
+  left: 100;
+  top: 0;
+}
+
+.banner-image {
+  width: 100%;
+}
